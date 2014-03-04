@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find Deals</string>
+    <string name="no_data">No Data</string>
+    <string name="img_desc">Deal Thumb image</string>
+    <string name="back">&lt;&lt;</string>
+    <string name="filter_text">Filter Results</string>
+    <string name="buy_now">BUY NOW !</string>
+	<string name="done">Done</string>
+	
+	<string name="show_map">Show Map</string>
+	<string name="filter">Filter</string>
+	
+	<string name="merchant_name">Merchant Name</string>
+	<string name="website"> web site </string>
+	<string name="address">Address</string>
+	<string name="deal_title">deal title</string>
+	<string name="price">Price</string>
+	<string name="expiration">Expiration</string>
+ 	<string name="deal_description">Deal Description</string>
+	<string name="discount">discount</string>
+	<string name="deal_info">Deal Info</string>
+	<string name="filter_by_category">Filter By Category</string>
+	<string name="show_list">Show List</string>
+	
+	<string name="map_title">Deals Around Me</string>
+	 <string name="map_overlay_own_name">Me</string>
+	
+</resources>

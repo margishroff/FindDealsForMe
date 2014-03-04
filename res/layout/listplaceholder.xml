@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+		android:id="@+id/location_text"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    />
+    
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:drawSelectorOnTop="false"
+        android:visibility="visible" 
+        android:textSize="80sp"
+        />
+ 
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_data" />
+
+     
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="46dp"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/filterbutton"
+        android:text="@string/show_map" />
+
+    <Button
+        android:id="@+id/filterbutton"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/filter" />
+
+</RelativeLayout>
+
+</LinearLayout>
