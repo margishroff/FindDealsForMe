@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
  
  
+import com.myshroff.finddealsforme.R;
 import com.myshroff.finddealsforme.Cache.ImageLoader;
  
 import android.widget.Button;

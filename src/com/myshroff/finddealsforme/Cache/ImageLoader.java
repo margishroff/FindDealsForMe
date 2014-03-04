@@ -15,6 +15,7 @@ import java.util.WeakHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.myshroff.finddealsforme.R;
 import com.myshroff.finddealsforme.Utils.Utils;
  
 
@@ -37,6 +38,7 @@ public class ImageLoader {
     }
     
     final int stub_id=R.drawable.stub;
+    
     public void DisplayImage(String url, ImageView imageView)
     {
         imageViews.put(imageView, url);

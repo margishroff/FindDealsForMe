@@ -1,6 +1,9 @@
 package com.myshroff.finddealsforme.Adapters;
  
 import java.util.ArrayList;
+
+import com.myshroff.finddealsforme.R;
+
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;

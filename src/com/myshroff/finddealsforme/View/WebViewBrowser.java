@@ -1,6 +1,8 @@
 package com.myshroff.finddealsforme.View;
 
 
+import com.myshroff.finddealsforme.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

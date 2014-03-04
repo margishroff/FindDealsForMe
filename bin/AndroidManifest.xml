@@ -9,13 +9,13 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <uses-sdk android:minSdkVersion="4" />
+    <uses-sdk android:minSdkVersion="9" />
 
     <application
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="com.cmpe277.ClassProject.View.Main"
+            android:name="com.myshroff.finddealsforme.View.Main"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,19 +24,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cmpe277.ClassProject.View.ViewFilterActivity"
+            android:name="com.myshroff.finddealsforme.View.ViewFilterActivity"
             android:label="@string/filter_by_category" >
         </activity>
         <activity
-            android:name="com.cmpe277.ClassProject.View.ViewDealDetailsActivity"
+            android:name="com.myshroff.finddealsforme.ViewDealDetailsActivity"
             android:text="@string/deal_info" >
         </activity>
         <activity
-            android:name="com.cmpe277.ClassProject.View.WebViewBrowser"
+            android:name="com.myshroff.finddealsforme.View.WebViewBrowser"
             android:text="@string/deal_info" >
         </activity>
         <activity
-            android:name="com.cmpe277.ClassProject.View.ViewMapActivity"
+            android:name="com.myshroff.finddealsforme.View.ViewMapActivity"
             android:label="@string/app_name" >
         </activity>
 
